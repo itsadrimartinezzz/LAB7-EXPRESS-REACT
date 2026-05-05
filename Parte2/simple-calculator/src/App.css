@@ -1,0 +1,65 @@
+body {
+  background-color: #f9dce9;
+}
+
+.calculator {
+  width: 300px;
+  margin: 80px auto;
+  padding: 18px;
+  background-color: #ffeaf3;
+  border: 1px solid #ffc4dc;
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(215, 86, 150, 0.25);
+}
+
+.display {
+  background-color: #fff3f8;
+  color: #8b3b60;
+  padding: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: right;
+  min-height: 50px;
+  border: 1px solid #ffc7dd;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+.button-panel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+button {
+  padding: 18px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background-color: #fff7fb;
+  color: #9c3360;
+  cursor: pointer;
+  box-shadow: 0 3px 0 #ffd3e4;
+}
+
+button:hover {
+  background-color: #ffe0ef;
+}
+
+/* Colores de los botones de las operaciones + - * / */
+.button-panel button:nth-child(4),
+.button-panel button:nth-child(8),
+.button-panel button:nth-child(12),
+.button-panel button:nth-child(16) {
+  background-color: #f7a7d1;
+  color: #ab3e73;
+  box-shadow: 0 3px 0 #e46aaa;
+}
+
+.button-panel button:nth-child(4):hover,
+.button-panel button:nth-child(8):hover,
+.button-panel button:nth-child(12):hover,
+.button-panel button:nth-child(16):hover {
+  background-color: #f178b9;
+}
