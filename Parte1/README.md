@@ -71,7 +71,7 @@ Esta ruta sirve para comprobar que el servidor está activo.
 
 Devuelve un mensaje simple indicando que el servidor está funcionando correctamente.
 
-![Servidor activo](IMG/active-server.png)
+![Servidor activo](parte1-express/IMG/active-server.png)
 
 ---
 
@@ -81,7 +81,7 @@ Esta ruta devuelve información general en formato JSON.
 
 Incluye un mensaje, el nombre del curso y la tecnología utilizada, que en este caso es **Express**.
 
-![Ruta info](IMG/info.png)
+![Ruta info](parte1-express/IMG/info.png)
 
 ---
 
@@ -91,7 +91,7 @@ Esta ruta devuelve un mensaje de texto simple.
 
 Se agregó como una ruta adicional para comprobar que el servidor puede responder diferentes solicitudes.
 
-![Ruta saludo](IMG/saludo.png)
+![Ruta saludo](parte1-express/IMG/saludo.png)
 
 ---
 
@@ -101,7 +101,7 @@ Esta ruta devuelve un JSON indicando que el servidor está funcionando correctam
 
 También muestra el puerto en el que está corriendo el servidor.
 
-![Ruta api status](IMG/api-status.png)
+![Ruta api status](parte1-express/IMG/api-status.png)
 
 ---
 
@@ -111,7 +111,7 @@ Esta ruta lee la información del archivo `datos.json` y la devuelve como respue
 
 Esto permite comprobar que el servidor puede leer un archivo local y responder con esos datos usando Express.
 
-![Ruta api student](IMG/api-student.png)
+![Ruta api student](parte1-express/IMG/api-student.png)
 
 ---
 
@@ -121,7 +121,7 @@ También se agregó un manejo para rutas que no existen.
 
 Cuando el usuario entra a una ruta no definida, el servidor responde con un código `404` y muestra cuál fue la ruta que no se encontró.
 
-![Ruta no encontrada](IMG/cualquiercosa.png)
+![Ruta no encontrada](parte1-express/IMG/cualquiercosa.png)
 
 ---
 
