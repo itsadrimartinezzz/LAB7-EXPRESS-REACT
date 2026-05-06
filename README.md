@@ -102,24 +102,48 @@ After following the base tutorial, several custom changes were implemented:
 # Video 
 https://canva.link/8ji2pvpm8swncjg
 ---
-# Folder Structure
 
-```bash
-LAB7/
+# Project Structure
+
+```bash id="otc8dt"
+LAB7-EXPRESS-REACT/
 │
 ├── README.md
 │
-└── evidencias/
-    ├── express/
-    │   ├── ruta-principal.png
-    │   ├── ruta-info.png
-    │   ├── ruta-saludo.png
-    │   ├── ruta-status.png
-    │   └── ruta-404.png
-    │
-    └── react/
-        ├── calculadora-main.png
-        ├── suma.png
-        ├── resta.png
-        ├── multiplicacion.png
-        └── division.png
+├── Parte1/
+│   └── parte1-express/
+│       ├── IMG/
+│       │   ├── active-server.png
+│       │   ├── api-status.png
+│       │   ├── api-student.png
+│       │   ├── cualquiercosa.png
+│       │   ├── info.png
+│       │   └── saludo.png
+│       │
+│       ├── datos.json
+│       ├── package-lock.json
+│       ├── package.json
+│       └── servidor-express.js
+│
+├── Parte2/
+│   └── simple-calculator/
+│       ├── public/
+│       │   └── index.html
+│       │
+│       ├── src/
+│       │   ├── components/
+│       │   │   ├── ButtonPanel.jsx
+│       │   │   └── Display.jsx
+│       │   │
+│       │   ├── App.css
+│       │   ├── App.jsx
+│       │   ├── index.css
+│       │   └── index.js
+│       │
+│       ├── package-lock.json
+│       ├── package.json
+│       └── README.md
+│
+├── README.md
+└── README.md
+```
