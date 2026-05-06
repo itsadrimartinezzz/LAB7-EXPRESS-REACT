@@ -99,59 +99,8 @@ After following the base tutorial, several custom changes were implemented:
 * CSS
 
 ---
-
-# Evidence
-
-## Part 1 - Express
-
-### Main Route
-
-![Main Route](./evidencias/express/ruta-principal.png)
-
-### Route /info
-
-![Info Route](./evidencias/express/ruta-info.png)
-
-### Route /saludo
-
-![Saludo Route](./evidencias/express/ruta-saludo.png)
-
-### Route /api/status
-
-![Status Route](./evidencias/express/ruta-status.png)
-
-### Nonexistent Route (404)
-
-![404 Route](./evidencias/express/ruta-404.png)
-
----
-
-## Part 2 - React
-
-### Calculator Running
-
-![Calculator](./evidencias/react/calculadora-main.png)
-
-### Addition Operation
-
-![Addition](./evidencias/react/suma.png)
-
-### Subtraction Operation
-
-![Subtraction](./evidencias/react/resta.png)
-
-### Multiplication Operation
-
-![Multiplication](./evidencias/react/multiplicacion.png)
-
-### Division Operation
-
-![Division](./evidencias/react/division.png)
-
----
 # Video 
-
-
+https://canva.link/8ji2pvpm8swncjg
 ---
 # Folder Structure
 
